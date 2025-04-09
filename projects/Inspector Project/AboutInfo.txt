@@ -1,0 +1,8 @@
+﻿Manufacturer=Resco
+ProductTitle=Inspections
+ProductSubTitle=
+PoweredBy=Powered by Resco.Net
+Icon=Logo.Logo.png
+Website=www.resco.net
+SupportEmail=ccc@mmm.net
+SupportEmailSignature=

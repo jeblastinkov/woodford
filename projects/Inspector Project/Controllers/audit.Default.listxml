@@ -1,0 +1,54 @@
+﻿<EntityList>
+  <Attributes>
+    <EntityName>audit</EntityName>
+    <CamelCase>audit</CamelCase>
+  </Attributes>
+  <Name>Default</Name>
+  <Kind>List</Kind>
+  <AutoWideWidth>0</AutoWideWidth>
+  <OrderBy>!createdon</OrderBy>
+  <SerializedBindings>
+    <string>additionalinfo</string>
+    <string>callinguserid</string>
+    <string>changedata</string>
+    <string>userid</string>
+    <string>createdon</string>
+    <string>attributemask</string>
+    <string>action</string>
+    <string>operation</string>
+    <string>objectid</string>
+    <string>auditid</string>
+    <string>regardingobjectid</string>
+    <string>useradditionalinfo</string>
+  </SerializedBindings>
+  <MaxColumns>0</MaxColumns>
+  <SerializedTemplates>
+    <RowTemplate>
+      <DesignWidth>320</DesignWidth>
+      <DesignHeight>48</DesignHeight>
+      <Name>Default</Name>
+      <Width>320</Width>
+      <Height>48</Height>
+      <SerializedChildren>
+        <CellTemplate SchemaName="operation">
+          <StyleName>primary</StyleName>
+          <Bounds>10,2,302,28</Bounds>
+          <CellKind>0</CellKind>
+          <Anchor>13</Anchor>
+        </CellTemplate>
+        <CellTemplate SchemaName="callinguserid">
+          <StyleName>gray</StyleName>
+          <Bounds>10,31,146,13</Bounds>
+          <CellKind>0</CellKind>
+          <Anchor>5</Anchor>
+        </CellTemplate>
+        <CellTemplate SchemaName="createdon">
+          <StyleName>r_gray</StyleName>
+          <Bounds>157,31,152,13</Bounds>
+          <CellKind>0</CellKind>
+          <Anchor>13</Anchor>
+        </CellTemplate>
+      </SerializedChildren>
+    </RowTemplate>
+  </SerializedTemplates>
+</EntityList>

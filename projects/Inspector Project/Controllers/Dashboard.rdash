@@ -1,0 +1,9 @@
+﻿<Dashboard xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:dummy="0">
+  <Columns>1</Columns>
+  <Rows>1</Rows>
+  <Items>
+    <DashboardComponent xsi:type="DashboardEntityComponent" Kind="Chart" Binding="resco_questionnaire;resco_questionnaire.TEST" Options="3">
+      <Bounds>0,0,1,1</Bounds>
+    </DashboardComponent>
+  </Items>
+</Dashboard>

@@ -1,0 +1,39 @@
+﻿<EntityList>
+  <Attributes>
+    <EntityName>appointment</EntityName>
+    <CamelCase>appointment</CamelCase>
+  </Attributes>
+  <Name>Appointments_Scheduler</Name>
+  <Kind>List</Kind>
+  <AutoWideWidth>0</AutoWideWidth>
+  <OrderBy>subject</OrderBy>
+  <SerializedBindings>
+    <string>activityid</string>
+    <string>statecode</string>
+    <string>subject</string>
+  </SerializedBindings>
+  <MaxColumns>0</MaxColumns>
+  <SerializedTemplates>
+    <RowTemplate>
+      <DesignWidth>320</DesignWidth>
+      <DesignHeight>48</DesignHeight>
+      <Name>Default</Name>
+      <Width>320</Width>
+      <Height>60</Height>
+      <SerializedChildren>
+        <CellTemplate SchemaName="subject">
+          <StyleName>primary</StyleName>
+          <Bounds>5,10,310,25</Bounds>
+          <CellKind>0</CellKind>
+          <Anchor>13</Anchor>
+        </CellTemplate>
+        <CellTemplate SchemaName="statecode">
+          <StyleName>gray</StyleName>
+          <Bounds>5,40,310,15</Bounds>
+          <CellKind>0</CellKind>
+          <Anchor>5</Anchor>
+        </CellTemplate>
+      </SerializedChildren>
+    </RowTemplate>
+  </SerializedTemplates>
+</EntityList>

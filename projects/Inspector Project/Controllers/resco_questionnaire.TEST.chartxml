@@ -1,0 +1,39 @@
+﻿<EntityChart>
+  <Name>TEST</Name>
+  <Kind>Column</Kind>
+  <LimitCount>3</LimitCount>
+  <Fetch version="1.0">
+    <entity name="resco_questionnaire">
+      <filter type="and">
+        <condition attribute="resco_contact" operator="not-null"/>
+      </filter>
+    </entity>
+  </Fetch>
+  <MinValue>
+    <Color>#0000ff</Color>
+  </MinValue>
+  <MaxValue>
+    <Color>#0000ff</Color>
+  </MaxValue>
+  <TargetValue>
+    <Color>#0000ff</Color>
+  </TargetValue>
+  <SerializedBindings/>
+  <Attributes>
+    <EntityName>resco_questionnaire</EntityName>
+    <CamelCase>resco_questionnaire</CamelCase>
+  </Attributes>
+  <Series>
+    <Series>
+      <Attribute>resco_questionnaireid</Attribute>
+      <Color>#f100ff</Color>
+      <Aggregation>CountNonNull</Aggregation>
+    </Series>
+  </Series>
+  <GroupBySeries>
+    <GroupBySeries>
+      <Attribute>resco_contact</Attribute>
+    </GroupBySeries>
+  </GroupBySeries>
+  <Axis>resco_contact</Axis>
+</EntityChart>
